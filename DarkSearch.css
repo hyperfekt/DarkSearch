@@ -778,7 +778,7 @@
     .gb_ha, .gb_Ob, .gb_Rb, .gb_fa {
         color: #c5c5c5 !important;
     }
-    .gb_mb.gb_ha.gb_g, .gb_yb { /* account dropdown panel (top and bottom) */
+    .gb_mb.gb_ha.gb_g { /* account dropdown panel (top and bottom) */
         background: #212121; 
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
