@@ -787,16 +787,20 @@
     .gb_zb {
         background-color: #1a1a1a;
     }
-    .gb_Fa, .gb_zb .gb_yb:hover { /*Buttons: Add account&Logout*/
+    .gb_yb:hover { /*Buttons: Add account&Logout on hover*/
+        background: #333!important;
+        border-color: #333!important;
+    }
+    .gb_Ea.gb_Cf.gb_ue.gb_yb, .gb_Ea.gb_Ef.gb_Mf.gb_ue.gb_yb{ /*add account & sign out buttons*/
         background: #222;
         border-color: #333;
+        color: #989898!important;
     }
     .gb_Cb, .gb_Eb { /* multiLogin listing */
         background: #1d1d1d;
     }
     .gb_Db, .gb_fa, .gb_Fb {  /* multiLogin listing */
         background: #212121;
-        border-top: 1px solid #333;
         border-top-color: rgba(0,0,0,.2);
     }
     .gb_Pb {
