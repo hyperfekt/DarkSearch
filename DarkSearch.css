@@ -747,7 +747,8 @@
     #gb#gb a.gb_O, .gb_ga, .gb_Jb {
         color: #c5c5c5;
     }
-    .gb_fa .gb_b, .gb_4b {
+        /* 3x3 grid for app switcher */
+    .gb_fa .gb_b, .gb_4b, .gb_b.gb_6b {
         filter: invert(.7);
     }
 
@@ -759,7 +760,7 @@
         background: #212121 !important;
         border-color: #212121 !important;
     }
-    .gb_Ec.gb_Fc, .gb_Fc.gb_Hc {
+    .gb_Ec.gb_Fc, .gb_Fc.gb_Hc, .gb_Hc.gb_Ic.gb_6b {
         filter: invert(1) brightness(.9) contrast(.87);
     }
     .ez1Qqf {
@@ -767,6 +768,10 @@
     }
     .qXj2He {
         color: rgba(255,255,255,.54) !important;
+    }
+    /* border around dropdown thing */
+    #gbsfw{
+        border-color: #333!important;
     }
 
     /* Google Account Dropdown */
