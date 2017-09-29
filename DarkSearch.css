@@ -1129,7 +1129,7 @@
     .act-tim-fs-cnt:-webkit-full-screen {
       background-color: #101010!important;
     }
-    .act-tim-txt-cnt {
+    .act-tim-txt-cnt, .act-tim-digit, .act-tim-sep {
         color: #c5c5c5;
     }
     .act-tab-link.act-inactive-tab:hover {
