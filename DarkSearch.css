@@ -519,17 +519,20 @@
         background: #373737 !important;
         border-color: #373737 !important;
     }
-
     /* shape calculator/equations */
     .lr-fy-eq.lr-fy-eq-elem{
-     color:#989898!important; 
+        color:#989898!important;
+    }
+    .lr-fy-eq-add:not(.lr-fy-eq-elem){
+        background-color: #989898!important;
     }
     .lr-fy-tb{
-     border-color: #333!important; 
+        border-color: #333!important; 
     }
     .lr-fy-tb:focus{
-     border-color: #989898!important;  
+        border-color: #989898!important;  
     }
+
 
     /* Unit converter */
     ._Ohf, .ccw_unit_selector, .ccw_selector_bg {
