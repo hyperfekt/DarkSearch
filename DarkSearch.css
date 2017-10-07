@@ -1144,6 +1144,14 @@
     .act-btn-row, .act-tim-fs-cnt {
         border-top: 1px solid #1d1d1d;
     }
+    /* Fix for card text colors */
+    ._XWk {
+        color: #ccc!important;
+    }
+
+    ._aMb {
+        color: #ccc!important;
+    }
 }
 
 @-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
