@@ -152,7 +152,7 @@
         color: #9268D4 !important;
     }
     /* URL color #69AC82 */
-    .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc > i, .bc a:link, ._IId {
+    .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc > i, .bc a:link, ._IId, ._CBw._Clt {
         color: #4dab6f !important;
     }
     /* Strong Blue links #54A6F8 */
@@ -527,10 +527,10 @@
         background-color: #989898!important;
     }
     .lr-fy-tb{
-        border-color: #333!important; 
+        border-color: #333!important;
     }
     .lr-fy-tb:focus{
-        border-color: #989898!important;  
+        border-color: #989898!important;
     }
 
 
@@ -793,7 +793,7 @@
         color: #c5c5c5 !important;
     }
     .gb_mb.gb_ha.gb_g { /* account dropdown panel (top and bottom) */
-        background: #212121; 
+        background: #212121;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
         color: #fff !important;
@@ -1105,6 +1105,39 @@
     /* Google cards */
     g-card-section {
         background: #1c1c1c;
+    }
+
+    /* card fix for questions */
+    ._Z1m._Dou{
+        background: #101010!important;
+    }
+    /* card body */
+	._Iew, ._yHv {
+	    color: #989898!important;
+        background: #101010;
+      }
+
+    /*   card title */
+    ._Enw._H1m._kup._J5m{
+        color: #ccc!important;
+    }
+    /* card title arrows */
+    ._K4m._DYo._wtf._Ctf > svg{
+        fill: #989898;
+    }
+    /* card subtitle */
+    ._H1m._O1m._mup._J5m, ._Qjt._H1m._P1m._mup._J5m{
+         color: #989898;
+    }
+    /* next and last arrow buttons */
+    button._CDq._PEq._Rqu > span > svg, button._CDq._PEq._Rqu{
+        fill: #ccc!important;
+        background: #333;
+    }
+
+    /* card divider */
+    ._zhv{
+     border-color: #989898!important;
     }
 
     /* People also ask */
