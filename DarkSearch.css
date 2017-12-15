@@ -5,9 +5,9 @@
      * Version: v2.1.8
      */
 
-    /* Customize main background color here */
+     /* Main Background Color*/
     :root {
-      --main-bg-color: #101010;
+      --main-bg-color: /*[[MAINBGCOLOR]]*/;
     }
 
     /* Background */
