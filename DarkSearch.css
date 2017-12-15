@@ -1,8 +1,8 @@
 @-moz-document regexp('https?://(ipv4|www).google.(com|([a-z]{2}))(.[a-z]{2})?.'), regexp('https?://(ipv4|www).google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)'), regexp('https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)'), regexp('https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?.'), regexp('https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*') {
     /*
      * Name:    DarkSearch for Google (updated)
-     * Author:  Nass O
-     * Version: v2.2.0
+     * Author:  Nass O & hyperfekt
+     * Version: v3
      */
 
      /* Main Background Color*/
