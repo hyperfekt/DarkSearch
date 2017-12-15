@@ -612,7 +612,7 @@
 
     /* App Menu */
     .gb_cc {
-      filter: invert(100%);
+      filter: invert(1) grayscale(1);
     }
 
     /* Sign In Button */
