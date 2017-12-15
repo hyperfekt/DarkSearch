@@ -620,6 +620,11 @@
       border: none;
     }
 
+    /* Generated Images (e.g. in definitions) */
+    g-img {
+      filter: invert(.91) grayscale(1);
+    }
+
     /* ETC */
     ._Qsh, ._ae ._SDf, ._Lbe, .kltat, .klfact {
         color: #c5c5c5 !important;
