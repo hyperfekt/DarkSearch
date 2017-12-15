@@ -610,6 +610,16 @@
         color: #a6a6a6 !important;
     }
 
+    /* App Menu */
+    .gb_cc {
+      filter: invert(100%);
+    }
+
+    /* Sign In Button */
+    .gb_Fa {
+      border: none;
+    }
+
     /* ETC */
     ._Qsh, ._ae ._SDf, ._Lbe, .kltat, .klfact {
         color: #c5c5c5 !important;
