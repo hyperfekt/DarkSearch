@@ -630,10 +630,17 @@
         border: 1.5px solid #000000;
     }
 
-    /* Dropdown checkmarks (not yet implemented in browsers, see https://drafts.fxtf.org/filter-effects/#FilterCSSImageValue) */
+    /* Dropdown Checkmarks (not yet implemented in browsers, see https://drafts.fxtf.org/filter-effects/#FilterCSSImageValue) */
     .hdtbSel {
         background-image: filter(url(https://ssl.gstatic.com/ui/v1/menu/checkmark2.png), invert(1));
     }
+
+    /* Expandable Navigation ("More", "Tools") */
+    ._dMq {
+        background: #151515;
+        box-shadow: 0px 2px 5px 0 black;
+    }
+    
 
     /* ETC */
     ._Qsh, ._ae ._SDf, ._Lbe, .kltat, .klfact {
