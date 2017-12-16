@@ -643,8 +643,8 @@
 
     /* Expandable Navigation ("More", "Tools") */
     ._dMq {
-        background: #151515;
-        box-shadow: 0px 2px 5px 0 black;
+        background: #151515 !important;
+        box-shadow: 0px 2px 5px 0 black !important;
     }
     
     /* Location Footer */
