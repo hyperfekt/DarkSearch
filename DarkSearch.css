@@ -10,6 +10,12 @@
       --main-bg-color: /*[[MAINBGCOLOR]]*/;
     }
 
+    /* Fallback Color*/
+
+    body {
+        color: /*[[MAINTEXTCOLOR]]*/;
+    }
+
     /* Background */
     html, body, #cnt, .rg_l, #botabar, a._sWr {
         background: var(--main-bg-color) !important;
