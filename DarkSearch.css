@@ -571,8 +571,8 @@
       border: none;
     }
 
-    /* Generated Images (e.g. in definitions) */
-    g-img {
+    /* Definition Images */
+    #lr_dct_img_use, img[id^="lr_dct_img_origin_"] {
       filter: invert(.91) grayscale(1);
     }
 
