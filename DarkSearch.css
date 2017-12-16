@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  Nass O & hyperfekt
-     * Version: v3.1
+     * Version: v3.1.1
      */
 
      /* Main Background Color*/
@@ -161,7 +161,7 @@
         color: /*[[VISITEDURLCOLOR]]*/ !important;
     }
     /* URL color #69AC82 */
-    .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc > i, .bc a:link, ._IId, ._CBw._Clt {
+    .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc > i, .bc a:link, ._IId, ._CBw._Clt, ._PHs {
         color: /*[[URLCOLOR]]*/ !important;
     }
     /* Strong Blue links #54A6F8 */
