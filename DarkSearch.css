@@ -123,15 +123,15 @@
     /* Visited links */
     /* Titles (blue) #7EB3F3 */
     .rllt__action-button:visited, #gsr .rllt__action-button:active, ._eMi, #sbsb_f, #sbsb_f:hover, a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu, a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited {
-        color: #5e7af2;
+        color: /*[[LINKCOLOR]]*/;
     }
     ._tX, ._Qqb._tX.ellip, ._Icb > a, .ab_dropdownlnkinfo:hover {
-        color: #5e7af2 !important;
+        color: /*[[LINKCOLOR]]*/ !important;
     }
 
     /* Links (blue) #89A2CF*/
     a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b, #foot #navcnt a, a.fl.q._KCd._tWc, .st .f .fl, div.duf3d a, ._YAp, .lr_dct_more_btn, a ._l6b, ._Yht {
-        color: #5e7af2 !important;
+        color: /*[[LINKCOLOR]]*/ !important;
     }
 
     /* TextD */
@@ -152,11 +152,11 @@
 
     /* visited links #BD90D7 */
     .mblink:visited, a:visited, .sbpqs_a, a.fl:visited, .st .f .fl:visited {
-        color: #9268d4 !important;
+        color: /*[[VISITEDURLCOLOR]]*/ !important;
     }
     /* URL color #69AC82 */
     .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc > i, .bc a:link, ._IId, ._CBw._Clt {
-        color: #4dab6f !important;
+        color: /*[[URLCOLOR]]*/ !important;
     }
     /* Strong Blue links #54A6F8 */
     #hdtb-msb .hdtb-mitem.hdtb-msel, #hdtb-msb .hdtb-mitem.hdtb-msel-pre {
