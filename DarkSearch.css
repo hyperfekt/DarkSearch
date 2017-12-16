@@ -165,7 +165,7 @@
     }
 
     /* Links (white) */
-    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a {
+    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a, #hptl a {
         color: #a3a3a3 !important;
     }
     .gb_Q span {
@@ -594,6 +594,10 @@
     
     /* Location Footer */
     ._Cbu {
+        color: /*[[MAINTEXTCOLOR]]*/;
+    }
+
+    #hptl a{
         color: /*[[MAINTEXTCOLOR]]*/;
     }
 
