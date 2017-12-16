@@ -738,6 +738,10 @@
     }
     .gb_ka {
         background-color: #1d1d1d;
+        color: #c5c5c5 !important;
+    }
+    .gb_ja {
+        color: #c5c5c5 !important;
     }
     .gb_kb, .gb_lb {
         border-bottom-color: #212121!important;
