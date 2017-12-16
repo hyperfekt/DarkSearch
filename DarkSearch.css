@@ -601,6 +601,22 @@
         color: /*[[MAINTEXTCOLOR]]*/;
     }
 
+    /* Graphs */
+    .lcht-hldr.lcht-pw .bandaid {
+        fill: #1c1c1c;
+        stroke: #1c1c1c;
+    }
+    .lcht-hldr text.outline {
+        fill: #1c1c1c;
+        stroke: #1c1c1c;
+    }
+    .lcht-hldr .line {
+        stroke-width: 2;
+    }
+    .kpd-le-p a.kpd-en, .kpd-le.highlighted a.kpd-en {
+        color: #EEE !important;
+    }
+
     /* ETC */
     ._Qsh, ._ae ._SDf, ._Lbe, .kltat, .klfact {
         color: #c5c5c5 !important;
