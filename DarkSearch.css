@@ -603,12 +603,12 @@
 
     /* Graphs */
     .lcht-hldr.lcht-pw .bandaid {
-        fill: #1c1c1c;
-        stroke: #1c1c1c;
+        fill: #1c1c1c !important;
+        stroke: #1c1c1c !important;
     }
     .lcht-hldr text.outline {
-        fill: #1c1c1c;
-        stroke: #1c1c1c;
+        fill: #1c1c1c !important;
+        stroke: #1c1c1c !important;
     }
     .lcht-hldr .line {
         stroke-width: 2;
@@ -617,7 +617,7 @@
         color: #EEE !important;
     }
     .pclose rect {
-        fill: #161616;
+        fill: #161616 !important;
     }
 
     /* ETC */
