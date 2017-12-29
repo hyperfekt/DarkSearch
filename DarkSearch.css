@@ -7,19 +7,19 @@
 
      /* Main Background Color*/
     :root {
-      --main-bg-color: /*[[MAINBGCOLOR]]*/;
+      --main-bg-color: /*[[MAINBGCOLOR]]*/ !important;
     }
 
     /* Fallback Color*/
 
     body {
-        color: /*[[MAINTEXTCOLOR]]*/;
+        color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
 
     /* Background */
     html, body, #cnt, .rg_l, #botabar, a._sWr {
         background: var(--main-bg-color) !important;
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
     }
     /* Inverting colors */
     .qbh, .s2tb .google-logo, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
@@ -39,12 +39,12 @@
     }
     /* Images opacity */
     #hplogo, #logo img, .gbii {
-        opacity: 0.7;
-        transition: opacity 0.2s;
+        opacity: 0.7 !important;
+        transition: opacity 0.2s !important;
     }
     #hplogo:hover, #logo img:hover, .gbii:hover {
-        opacity: 1;
-        transition: opacity 0.5s;
+        opacity: 1 !important;
+        transition: opacity 0.5s !important;
     }
 
     /* Scrollbar Chrome*/
@@ -74,14 +74,14 @@
         color: #c5c5c5 !important;
     }
     input {
-        background-color: #222;
+        background-color: #222 !important;
     }
 
     /* Header */
     .sfbgg {
         background-color: #151515 !important;
         border-bottom: none !important;
-        background-image: none;
+        background-image: none !important;
     }
     .sfbgx {
         background-color: #151515 !important;
@@ -111,7 +111,7 @@
 
     /* Titles */
     .rllt__action-button:visited, #gsr .rllt__action-button:active, ._eMi, #sbsb_f, #sbsb_f:hover, a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu, a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited {
-        color: /*[[LINKCOLOR]]*/;
+        color: /*[[LINKCOLOR]]*/ !important;
     }
     ._tX, ._Qqb._tX.ellip, ._Icb > a, .ab_dropdownlnkinfo:hover {
         color: /*[[LINKCOLOR]]*/ !important;
@@ -140,7 +140,7 @@
 
     /* Matching words in search results */
     .ads-creative b, .s .st em, .st.s.std em {
-        color: #bdbdbd;
+        color: #bdbdbd !important;
     }
 
     /* visited links */
@@ -161,7 +161,7 @@
     }
     /* Strong White links */
     .kno-ecr-pt {
-        color: #eee!important;
+        color: #eee !important;
     }
 
     /* Links (white) */
@@ -169,7 +169,7 @@
         color: #a3a3a3 !important;
     }
     .gb_Q span {
-        opacity: 1;
+        opacity: 1 !important;
     }
     /* Hover links (white) */
     a._Gs:hover, ._HR a, #swml a:hover, .hdtbItm label:hover, .hdtbItm a:hover, #hdtb-more-mn a:hover, #hdtb .hdtb-mitem a:hover, .hdtb-mn-hd:hover, #hdtb-more:hover, #hdtb-tls:hover {
@@ -178,32 +178,32 @@
 
     /* Mini search button */
     #sblsbb, #sblsbb:hover {
-        background-color: #2e2e2e;
+        background-color: #2e2e2e !important;
     }
 
     /* Button Shadow */
     .jhp input[type='submit'], .sbdd_a input, .gbqfba {
-        background-image: none;
-        background-color: #222;
-        border-color: #242424;
-        color: #acacac;
-        box-shadow: 0 0 5px #0f0f0f;
+        background-image: none !important;
+        background-color: #222 !important;
+        border-color: #242424 !important;
+        color: #acacac !important;
+        box-shadow: 0 0 5px #0f0f0f !important;
     }
 
     /* Button Shadow Hover */
     .jhp input[type='submit']:hover, .sbdd_a input:hover, .gbqfba:hover {
-        background-image: none;
-        background-color: #2e2e2e;
-        border-color: #2d2d2d;
-        color: #ccc;
-        box-shadow: 0 0 5px #0f0f0f;
+        background-image: none !important;
+        background-color: #2e2e2e !important;
+        border-color: #2d2d2d !important;
+        color: #ccc !important;
+        box-shadow: 0 0 5px #0f0f0f !important;
     }
 
     /* Button */
     .ab_button, #hdtb-tls:hover, .ksb {
-        background-image: none;
-        background-color: #222;
-        border-color: #262626;
+        background-image: none !important;
+        background-color: #222 !important;
+        border-color: #262626 !important;
         color: #acacac !important;
     }
     #hdtb-msb .hdtb-tl-sel, #hdtb-msb .hdtb-tl-sel:hover {
@@ -217,20 +217,20 @@
 
     /* Button Hover */
     .ab_button:hover, .ksb:hover {
-        background-image: none;
-        background-color: #282828;
-        border-color: #2c2c2c;
-        color: #ccc;
+        background-image: none !important;
+        background-color: #282828 !important;
+        border-color: #2c2c2c !important;
+        color: #ccc !important;
     }
 
     /* Selected button */
     .ksb.ksbs, .ksb.ksbs:hover {
-        background-color: #222;
-        background-image: linear-gradient(to bottom, var(--main-bg-color), #1e1e1e);
-        border: 1px solid #262626;
-        box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-        color: #afafaf;
-        margin: 0;
+        background-color: #222 !important;
+        background-image: linear-gradient(to bottom, var(--main-bg-color), #1e1e1e) !important;
+        border: 1px solid #262626 !important;
+        box-shadow: inset 0 1px 2px rgba(0,0,0,0.1) !important;
+        color: #afafaf !important;
+        margin: 0 !important;
     }
 
     /* Disabled button */
@@ -270,14 +270,14 @@
 
     /* SearchBar dropdown */
     .sbsb_a {
-        background: #222;
+        background: #222 !important;
     }
     .sbdd_b {
-        border: 1px solid #222;
-        border-top-color: #2e2e2e;
+        border: 1px solid #222 !important;
+        border-top-color: #2e2e2e !important;
     }
     .sbsb_d {
-        background: #2e2e2e;
+        background: #2e2e2e !important;
     }
 
     /* Containers */
@@ -321,7 +321,7 @@
     .ktf {
         background-color: #222 !important;
         color: #c5c5c5 !important;
-        border-color: #262626;
+        border-color: #262626 !important;
     }
     ._zF, .mslg .ab_button, .mslg .kpgrb {
         border: 1px solid #262626 !important;
@@ -355,7 +355,7 @@
         background-color: #161616 !important;
     }
     .rl_item, a.rl_item._pkf {
-        background-color: #161616;
+        background-color: #161616 !important;
         border-top: 1px solid #282828 !important;
     }
     .rl_feature .kxbcl, .rl_feature .lxhdrbox {
@@ -373,7 +373,7 @@
     }
 
     /* Titles in containers */
-    div[style='color:#777;vertical-align:top'], span._xdb a.fl, ._W5e._X5e a, ._yE ._wI, ._W5e {
+    div[style='color:#777 !important;vertical-align:top'], span._xdb a.fl, ._W5e._X5e a, ._yE ._wI, ._W5e {
         color: #ccc !important;
     }
     div._uhe a._Zjg span.rhsg3, #irl_r_a, .qbtbtxt.qbclr:hover {
@@ -421,7 +421,7 @@
         color: rgba(224,224,224,0.87) !important;
     }
     ._jug {
-        filter: invert(1)!important;
+        filter: invert(1) !important;
     }
 
     /* Calculator */
@@ -475,16 +475,16 @@
     }
     /* shape calculator/equations */
     .lr-fy-eq.lr-fy-eq-elem {
-        color: #989898!important;
+        color: #989898 !important;
     }
     .lr-fy-eq-add:not(.lr-fy-eq-elem) {
-        background-color: #989898!important;
+        background-color: #989898 !important;
     }
     .lr-fy-tb {
-        border-color: #333!important;
+        border-color: #333 !important;
     }
     .lr-fy-tb:focus {
-        border-color: #989898!important;
+        border-color: #989898 !important;
     }
 
 
@@ -498,7 +498,7 @@
 
     /* Translator */
     .tw-lang-selector-wrapper {
-        border: none!important;
+        border: none !important;
     }
     .tw-lang-selector {
         color: #8e8e8e !important;
@@ -518,11 +518,11 @@
         border-color: #202020 !important;
     }
     .tw-menu-btn {
-        /*  opacity: 0.3!important;*/
+        /*  opacity: 0.3 !important;*/
         color: rgba(255,255,255,0.54) !important;
     }
     .tw-menu-btn:hover {
-        /*opacity: 1!important;*/
+        /*opacity: 1 !important;*/
         color: rgba(208,208,208,0.87) !important;
     }
 
@@ -533,7 +533,7 @@
         color: #747474 !important;
     }
     option {
-        background: #222;
+        background: #222 !important;
     }
     .tw-bilingual-entries .tw-bilingual-marked, .tw-bilingual-entries .tw-bilingual-marked * {
         color: rosybrown !important;
@@ -554,8 +554,8 @@
         border: 1px solid #181818 !important;
     }
     ._akb {
-        background-color: #cacaca;
-        border-top: 2px solid #989898;
+        background-color: #cacaca !important;
+        border-top: 2px solid #989898 !important;
     }
     .vk_bk.sol-tmp, .wob_t .vk_bk, .vk_bk, .vk_bk.wob-unit, .tw-bilingual-entry, .vk_ans.vk_bk, .curtgt {
         color: #a6a6a6 !important;
@@ -563,27 +563,27 @@
 
     /* App Menu */
     .gb_cc {
-      filter: invert(1) grayscale(1);
+      filter: invert(1) grayscale(1) !important;
     }
 
     /* Sign In Button */
     .gb_Fa {
-      border: none;
+      border: none !important;
     }
 
     /* Definition Images */
     #lr_dct_img_use, img[id^="lr_dct_img_origin_"] {
-      filter: invert(.91) grayscale(1);
+      filter: invert(.91) grayscale(1) !important;
     }
 
     /* Video Thumbnails */
     .th {
-        border: 1.5px solid #000000;
+        border: 1.5px solid #000000 !important;
     }
 
     /* Dropdown Checkmarks (not yet implemented in browsers, see https://drafts.fxtf.org/filter-effects/#FilterCSSImageValue) */
     .hdtbSel {
-        background-image: filter(url(https://ssl.gstatic.com/ui/v1/menu/checkmark2.png), invert(1));
+        background-image: filter(url(https://ssl.gstatic.com/ui/v1/menu/checkmark2.png), invert(1)) !important;
     }
 
     /* Expandable Navigation ("More", "Tools") */
@@ -594,11 +594,11 @@
     
     /* Location Footer */
     ._Cbu {
-        color: /*[[MAINTEXTCOLOR]]*/;
+        color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
 
     #hptl a{
-        color: /*[[MAINTEXTCOLOR]]*/;
+        color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
 
     /* Graphs */
@@ -611,7 +611,7 @@
         stroke: #1c1c1c !important;
     }
     .lcht-hldr .line {
-        stroke-width: 2;
+        stroke-width: 2 !important;
     }
     .kpd-le-p a.kpd-en, .kpd-le.highlighted a.kpd-en {
         color: #EEE !important;
@@ -643,7 +643,7 @@
     .knowledge-webanswers_table__webanswers-table th {
         color: #a2a2a2 !important;
     }
-    td[style='border-right: 1px solid #1d1d1d;width:50%;'], td[style='border-right:1px solid #ebebeb;width:50%'], .tb_l {
+    td[style='border-right: 1px solid #1d1d1d !important;width:50% !important;'], td[style='border-right:1px solid #ebebeb !important;width:50%'], .tb_l {
         border-color: #252525 !important;
     }
     ._uS {
@@ -656,7 +656,7 @@
         background-color: #1d1d1d !important;
     }
     g-inner-card {
-        background-color: transparent!important;
+        background-color: transparent !important;
     }
     .prpe:hover {
         background: #000 !important;
@@ -702,7 +702,7 @@
     }
     .lr_dct_spkr_off input[type='image'], .lr_dct_spkr_on input[type='image'] {
         background-color: #fff !important;
-        filter: invert(0.9);
+        filter: invert(0.9) !important;
     }
     ._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n, ._NEd, ._Fpi ._uii {
         color: rgba(255,255,255,0.87) !important;
@@ -717,17 +717,17 @@
         border-bottom-color: #1d1d1d !important;
     }
     ._cXm {
-        filter: invert(0.5);
+        filter: invert(0.5) !important;
     }
     ._vap {
-        border-color: #9baed2 transparent;
+        border-color: #9baed2 transparent !important;
     }
     #cnt.rfli .mw {
-        background-color: #151515!important;
+        background-color: #151515 !important;
     }
     #rllhd__fldhc {
-        border-bottom-color: #252525!important;
-        background-color: #151515!important;
+        border-bottom-color: #252525 !important;
+        background-color: #151515 !important;
     }
 
     /* Special Events (euro, world cup, olympics) */
@@ -753,34 +753,34 @@
 
     /* Frontpage Aplications Dropdown */
     .gb_ja, .gb_Z:hover .gb_3, ul[aria-dropeffect='move'] {
-        background-color: #212121;
+        background-color: #212121 !important;
     }
     .gb_ha {
-        background-color: #212121;
-        border-color: #212121;
+        background-color: #212121 !important;
+        border-color: #212121 !important;
     }
     .gb_ka {
-        background-color: #1d1d1d;
+        background-color: #1d1d1d !important;
         color: #c5c5c5 !important;
     }
     .gb_ja {
         color: #c5c5c5 !important;
     }
     .gb_kb, .gb_lb {
-        border-bottom-color: #212121!important;
+        border-bottom-color: #212121 !important;
     }
     .gb_Z:hover:not(.gb_0) a, .gb_ma, .gb_la, .gb_ka {
-        border-color: #333;
+        border-color: #333 !important;
     }
     .gb_xb:active {
-        background: #343434;
+        background: #343434 !important;
     }
     #gb#gb a.gb_O, .gb_ga, .gb_Jb {
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
     }
     /* 3x3 grid for app switcher */
     .gb_fa .gb_b, .gb_4b, .gb_b.gb_6b {
-        filter: invert(0.7);
+        filter: invert(0.7) !important;
     }
 
     /* Google Notifications Dropdown */
@@ -792,17 +792,17 @@
         border-color: #212121 !important;
     }
     .gb_Ec.gb_Fc, .gb_Fc.gb_Hc, .gb_Hc.gb_Ic.gb_6b {
-        filter: invert(1) brightness(0.9) contrast(0.87);
+        filter: invert(1) brightness(0.9) contrast(0.87) !important;
     }
     .ez1Qqf {
-        background: #1d1d1d!important;
+        background: #1d1d1d !important;
     }
     .qXj2He {
         color: rgba(255,255,255,0.54) !important;
     }
     /* border around dropdown thing */
     #gbsfw {
-        border-color: #333!important;
+        border-color: #333 !important;
     }
 
     /* Google Account Dropdown */
@@ -811,41 +811,41 @@
     }
     .gb_mb.gb_ha.gb_g {
         /* account dropdown panel (top and bottom) */
-        background: #212121;
+        background: #212121 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb {
         /*My account button fix*/
         color: #fff !important;
     }
     .gb_zb {
-        background-color: #1a1a1a;
+        background-color: #1a1a1a !important;
     }
     .gb_yb:hover {
         /*Buttons: Add account&Logout on hover*/
-        background: #333!important;
-        border-color: #333!important;
+        background: #333 !important;
+        border-color: #333 !important;
     }
     .gb_Ea.gb_Cf.gb_ue.gb_yb, .gb_Ea.gb_Ef.gb_Mf.gb_ue.gb_yb {
         /*add account & sign out buttons*/
-        background: #222;
-        border-color: #333;
-        color: #989898!important;
+        background: #222 !important;
+        border-color: #333 !important;
+        color: #989898 !important;
     }
     .gb_Cb, .gb_Eb {
         /* multiLogin listing */
-        background: #1d1d1d;
+        background: #1d1d1d !important;
     }
     .gb_Db, .gb_fa, .gb_Fb {
         /* multiLogin listing */
-        background: #212121;
-        border-top-color: rgba(0,0,0,0.2);
+        background: #212121 !important;
+        border-top-color: rgba(0,0,0,0.2) !important;
     }
     .gb_Pb {
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
     }
     .gb_Eb:hover, .gb_Hb:hover {
         /* multiLogin listing on hover */
-        background: #1d1d1d;
+        background: #1d1d1d !important;
     }
 
     /* Privacy Policy */
@@ -859,7 +859,7 @@
 
     /* New Search bar */
     .sbibod .sbico-c:hover {
-        background-color: transparent;
+        background-color: transparent !important;
     }
     .sbib_a, .sbibod {
         background: #222 !important;
@@ -910,19 +910,19 @@
         color: #909090 !important;
     }
     input#qbfile {
-        background: #141414;
+        background: #141414 !important;
     }
     .ktf:hover {
         border-color: #2b2b2b !important;
     }
     .kpbb {
-        background-image: none;
-        background-color: #373737;
+        background-image: none !important;
+        background-color: #373737 !important;
         border: 1px solid #272727 !important;
     }
     .kpbb:hover {
-        background-image: none;
-        background-color: #626262;
+        background-image: none !important;
+        background-color: #626262 !important;
     }
     #qbut .qbptr, #qbft .qbptr {
         border-bottom-color: #131313 !important;
@@ -941,7 +941,7 @@
         background: #000 !important;
     }
     .cdr_cls, .exycls {
-        filter: invert(0.94);
+        filter: invert(0.94) !important;
     }
     .cdr_dlg .goog-date-picker, .cdr_highl, .exyhlt {
         background-color: #161616 !important;
@@ -961,9 +961,9 @@
 
     /* Share & Feedback popup */
     ._m8j, .fAwjXaCTMo5__content, div.duf3d {
-        background-color: var(--main-bg-color)!important;
+        background-color: var(--main-bg-color) !important;
         box-shadow: 0 5px 26px 0 rgba(100,100,100,0.22) !important;
-        border-color: #1d1d1d!important;
+        border-color: #1d1d1d !important;
     }
     ._dyj, ._Gxj, ._Dfm, .lud-ohdf {
         color: rgba(255,255,255,0.87) !important;
@@ -975,18 +975,18 @@
         color: #fff !important;
     }
     .duf3x, .lud-ohx {
-        filter: invert(0.94);
+        filter: invert(0.94) !important;
     }
     div.duf3c input[type=radio]:active {
-        border-color: #333;
-        background: #222;
+        border-color: #333 !important;
+        background: #222 !important;
     }
     div.duf3c input[type=radio], .lud-asi, .duf3bs {
-        border-color: #222;
+        border-color: #222 !important;
     }
     textarea._wGk.dsoVKqXxiTb__animated {
         background-color: var(--main-bg-color) !important;
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
         padding: 2px !important;
     }
     ._S9g {
@@ -1003,23 +1003,23 @@
 
     /* New tab searchbar */
     #fkbx {
-        background-color: #222;
-        border-color: #222;
+        background-color: #222 !important;
+        border-color: #222 !important;
     }
     #fkbx:hover {
-        border-color: #282828;
+        border-color: #282828 !important;
     }
 
     /* Google logo (if needed) */
     /*@media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 96dpi)
     #hplogo {
-        background: url(/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
+        background: url(/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat !important;
     }
     */
 
     /* Additional infos on website (e.g. creation date) */
     ._cwc {
-        color: #b7b7b7;
+        color: #b7b7b7 !important;
     }
 
     /* Mobile */
@@ -1029,43 +1029,43 @@
         border-color: #303030 !important;
     }
     #hdtb-more, #hdtb-msb .hdtb-imb, #hdtb-msb .hdtb-imb.hdtb-msel, #hdtb-tls, #msc {
-        background-color: #151515!important;
+        background-color: #151515 !important;
     }
     ._zKj {
-        background: linear-gradient(to right,rgba(0,0,0,0),rgb(21,21,21))!important;
+        background: linear-gradient(to right,rgba(0,0,0,0),rgb(21,21,21)) !important;
     }
     ._Owg {
-        background: linear-gradient(to right,rgb(22,22,22),rgba(0,0,0,0))!important;
+        background: linear-gradient(to right,rgb(22,22,22),rgba(0,0,0,0)) !important;
     }
     .search-tool-pad, #top_nav, .msb {
         background-color: var(--main-bg-color) !important;
     }
     .srp #tsf {
-        border-bottom-color: rgba(150,150,150,0.12);
+        border-bottom-color: rgba(150,150,150,0.12) !important;
     }
     /* Search suggestions */
     .sbmsq_a {
-        background-color: #1d1d1d!important;
+        background-color: #1d1d1d !important;
     }
     .sbsb_e {
-        background-color: #333!important;
+        background-color: #333 !important;
     }
     /* Search results containers */
     ._cy:not(:empty), .mnr-c:not(:empty) {
         background-color: #161616 !important;
     }
     ._OXf, ._MBh, ._U7g {
-        border-color: #151515!important;
+        border-color: #151515 !important;
     }
     ._Zjj, ._Dzh, .mnr-c._Dzh, ._ESj, ._RRj {
-        background-color: #161616!important;
-        border-color: #151515!important;
+        background-color: #161616 !important;
+        border-color: #151515 !important;
     }
     ._NRl, ._Fij, ._Fij a, ._jyj, ._Xbe, ._M3k, ._Iqg, ._P8d, ._xkm, ._ywh, ._uRh {
-        color: rgba(255,255,255,0.87)!important;
+        color: rgba(255,255,255,0.87) !important;
     }
     ._OPd._Cnk a, #brs ._ryh, ._kk, ._bMc, ._D8e, ._Obi, ._Obi a, ._xdb, ._xdb a.fl, a.duf3, ._hap, ._pLp, ._Mnc, ._Jse, span._Gxg, ._Akh, ._wkm, ._jmp, ._zwh, ._vRh, ._LMk {
-        color: rgba(255,255,255,0.54)!important;
+        color: rgba(255,255,255,0.54) !important;
     }
     #brs a {
         color: #9baed2 !important;
@@ -1078,85 +1078,85 @@
     }
     #rhs .g-blk.rhsvw, .g.mnr-c.g-blk {
         background-color: transparent !important;
-        box-shadow: none!important;
+        box-shadow: none !important;
     }
     /* Mobile ETC */
     a.q.qs, ._jgc, ._bC, ._tic, ._aD, ._IAp, ._ucl, a ._n4d {
         color: #a6a6a6 !important;
     }
     ._D7k ._B7k:last-child, ._D7k ._c8k:last-child, ._D7k ._ISm:last-child, ._D7k ._C7k, ._A7k:not(:last-child) ._B7k:last-child, ._A7k:not(:last-child) ._c8k:last-child, ._A7k:not(:last-child) ._ISm:last-child, ._A7k:not(:last-child) ._C7k, ._c5d {
-        border-color: #1d1d1d!important;
+        border-color: #1d1d1d !important;
     }
     /* Round button */
     g-fab._wxg._Axg.xcas._jAg._vqh, g-fab._wxg._Bxg.xcae._jAg._vqh {
-        background-color: #1d1d1d!important;
-        color: rgba(255,255,255,0.54)!important;
+        background-color: #1d1d1d !important;
+        color: rgba(255,255,255,0.54) !important;
     }
     /* Next & install button */
     ._mk, #fbtns .ksb, ._Aji {
-        background-color: #222!important;
+        background-color: #222 !important;
     }
     /* Promo */
     .hww53CMqxtL__mobile-promo {
         background-color: var(--main-bg-color) !important;
-        box-shadow: 4px 4px 12px rgba(100,100,100,0.4)!important;
+        box-shadow: 4px 4px 12px rgba(100,100,100,0.4) !important;
     }
     /* Footer */
     ._GR #swml {
-        border-color: #1d1d1d!important;
+        border-color: #1d1d1d !important;
     }
     ._SAi {
-        border-color: #252525!important;
+        border-color: #252525 !important;
     }
     .fbar {
         background: #1d1d1d !important;
     }
     #swml_addr, #fuserm span[style*='color:#333'] {
-        color: #c5c5c5!important;
+        color: #c5c5c5 !important;
     }
 
     /* Fix for header text and button text on exact size image search tool */
 
     #isz_ex > div > div > div.exydlg > div.exyttl {
-        color: #a3a3a3!important;
+        color: #a3a3a3 !important;
     }
 
     /* Google cards */
     g-card-section {
-        background: #1c1c1c;
+        background: #1c1c1c !important;
     }
 
     /* card fix for questions */
     ._Z1m._Dou {
-        background: var(--main-bg-color)!important;
+        background: var(--main-bg-color) !important;
     }
     /* card body */
     ._Iew, ._yHv {
-        color: #989898!important;
-        background: var(--main-bg-color);
+        color: #989898 !important;
+        background: var(--main-bg-color) !important;
     }
 
     /*   card title */
     ._Enw._H1m._kup._J5m {
-        color: #ccc!important;
+        color: #ccc !important;
     }
     /* card title arrows */
     ._K4m._DYo._wtf._Ctf > svg {
-        fill: #989898;
+        fill: #989898 !important;
     }
     /* card subtitle */
     ._H1m._O1m._mup._J5m, ._Qjt._H1m._P1m._mup._J5m {
-        color: #989898;
+        color: #989898 !important;
     }
     /* next and last arrow buttons */
     button._CDq._PEq._Rqu > span > svg, button._CDq._PEq._Rqu {
-        fill: #ccc!important;
-        background: #333;
+        fill: #ccc !important;
+        background: #333 !important;
     }
 
     /* card divider */
     ._zhv {
-        border-color: #989898!important;
+        border-color: #989898 !important;
     }
 
     /* People also ask */
@@ -1172,63 +1172,63 @@
 
     /* Button hover in search bar fix */
     .sbibod button:hover {
-        background: #222!important;
+        background: #222 !important;
     }
 
     /* Timer */
     .act-tim-txt-cnt div[style='background-color:white'] {
-        background-color: #161616!important;
+        background-color: #161616 !important;
     }
     .act-tim-fs-cnt:-webkit-full-screen {
-        background-color: var(--main-bg-color)!important;
+        background-color: var(--main-bg-color) !important;
     }
     .act-tim-txt-cnt, .act-tim-digit, .act-tim-sep {
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
     }
     .act-tab-link.act-inactive-tab:hover {
-        color: white;
+        color: white !important;
     }
     .act-icon-dark-gray, .act-inactive-tab .act-icon-img {
-        filter: invert(1);
+        filter: invert(1) !important;
     }
     .act-btn-row, .act-tim-fs-cnt {
-        border-top: 1px solid #1d1d1d;
+        border-top: 1px solid #1d1d1d !important;
     }
     /* Fix for card text colors */
     ._XWk {
-        color: #a6a6a6!important;
+        color: #a6a6a6 !important;
     }
 
     ._aMb {
-        color: #a6a6a6!important;
+        color: #a6a6a6 !important;
     }
 }
 
 @-moz-document regexp('https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*') {
     /* Google Alerts Dropdown iframe */
     .aac, .Rzc, .WdjWF, .WpuQke {
-        background-color: #212121;
+        background-color: #212121 !important;
     }
     .vKFgJc, .Ygb, .bxpCne, .tubEcf {
-        filter: invert(1);
+        filter: invert(1) !important;
     }
     .l4a, .f4a, .f4a.tta, .Kza {
-        background-color: var(--main-bg-color);
+        background-color: var(--main-bg-color) !important;
     }
     .Kza:before {
-        border-top-color: #252525;
+        border-top-color: #252525 !important;
     }
     .Kza:after {
-        border-top-color: var(--main-bg-color);
+        border-top-color: var(--main-bg-color) !important;
     }
     .Jub, .Hub, .nYXukb, .xQb, .bhsVm {
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
     }
     .MNn0h, .MNn0h:hover {
-        background: #1d1d1d;
+        background: #1d1d1d !important;
     }
     .MNn0h:hover .YGETNc, .MNn0h.RATVS .YGETNc, .y9fV .YGETNc {
-        color: #868686;
+        color: #868686 !important;
     }
 }
 
@@ -1237,56 +1237,56 @@
 
     .gV6pJf, #gbsfw.gb_Ic {
         /*dropdown background*/
-        background: #212121!important;
-        border-color: #212121;
+        background: #212121 !important;
+        border-color: #212121 !important;
     }
     .CxSKqd.PNdSh, .CxSKqd.Wj1LYb, .CxSKqd {
         /*notification background*/
-        background: #151515;
+        background: #151515 !important;
     }
     .iWO9fc .mUbCce svg, .yxaWLe svg, .ajgU6 {
         /*icons*/
-        fill: rgba(255,255,255,0.54);
+        fill: rgba(255,255,255,0.54) !important;
     }
     .iWO9fc .mUbCce:hover svg, .yxaWLe:hover svg {
         /*icons:hover*/
-        fill: rgba(255,255,255,0.87);
+        fill: rgba(255,255,255,0.87) !important;
     }
     .XSVuue {
         /*logo Google*/
-        fill: rgba(255,255,255,0.26);
+        fill: rgba(255,255,255,0.26) !important;
     }
     .v7k2xf, .v7k2xf, .gMG7Fd, .wh73ab {
         /*text*/
-        color: rgba(255,255,255,0.87);
+        color: rgba(255,255,255,0.87) !important;
     }
     .OlDqke, .Vz68Kb {
         /*subtext*/
-        color: rgba(255,255,255,0.54);
+        color: rgba(255,255,255,0.54) !important;
     }
     .fEjTrb, .jvWPmb.qs41qe .fEjTrb {
         /*footer-bar*/
-        background-color: #1d1d1d;
+        background-color: #1d1d1d !important;
     }
     .xMujpb {
         /*opened notification header bg*/
-        background-color: #1d1d1d;
+        background-color: #1d1d1d !important;
     }
     .E4TZmd, .RIrM6d {
         /*opened notification bg*/
-        background: var(--main-bg-color);
+        background: var(--main-bg-color) !important;
     }
     .utcmad {
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
     }
     body, .m3JvWd, .g6UaYd, .vGowKb {
-        color: rgba(255,255,255,0.87);
+        color: rgba(255,255,255,0.87) !important;
     }
     .LCX1Id, .XGOYJd > :first-child, .ZYK0Xb {
-        border-top-color: #252525;
+        border-top-color: #252525 !important;
     }
     .GsLz7c, .sH8mib {
         /*circle icon bg*/
-        background: #212121;
+        background: #212121 !important;
     }
 }
