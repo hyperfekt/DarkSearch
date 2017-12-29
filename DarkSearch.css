@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.4
+     * Version: v3.1.4a
      */
 
      /* Main Background Color*/
@@ -145,11 +145,11 @@
 
     /* visited links */
     .mblink:visited, a:visited, .sbpqs_a, a.fl:visited, .st .f .fl:visited {
-        color: /*[[VISITEDURLCOLOR]]*/ !important;
+        color: /*[[VISITEDLINKCOLOR]]*/ !important;
     }
     /* URL color */
     .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc > i, .bc a:link, ._IId, ._CBw._Clt, ._PHs {
-        color: /*[[URLCOLOR]]*/ !important;
+        color: /*[[SOURCECOLOR]]*/ !important;
     }
     /* Strong Blue links */
     #hdtb-msb .hdtb-mitem.hdtb-msel, #hdtb-msb .hdtb-mitem.hdtb-msel-pre {
