@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.4a
+     * Version: v3.1.5
      */
 
      /* Main Background Color*/
@@ -128,7 +128,7 @@
     }
 
     /* TextD */
-    .rreh ._fk, span[style='color:#222'], #center_col ._Ak, #rhs ._Ak, ._i2g, ._g2g, .s, .st, ._cnc, #brs .med, ._Adb, ._tyb, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Lqc, .lc-loc-text, .gko-ctrl, .gko-ctrl:link, .gko-ctrl:visited, ._uxi, ._Hxi, ._gah {
+    .rreh ._fk, span[style='color:#222'], #center_col ._Ak, #rhs ._Ak, ._i2g, ._g2g, .s, .st, ._cnc, #brs .med, ._Adb, ._tyb, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Lqc, .lc-loc-text, .gko-ctrl, .gko-ctrl:link, .gko-ctrl:visited, ._uxi, ._Hxi, ._gah, ._e9n {
         color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
 
@@ -620,6 +620,15 @@
         fill: #161616 !important;
     }
 
+    /* 'things to do' compass */
+    ._x7n._v4r {
+        filter: brightness(400%) !important;
+    }
+    /* 'things to do' borders */
+    ._G4n td {
+        border-color: #636363;
+    }
+    
     /* ETC */
     ._Qsh, ._ae ._SDf, ._Lbe, .kltat, .klfact {
         color: #c5c5c5 !important;
