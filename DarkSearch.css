@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.5a
+     * Version: v3.1.5b
      */
 
      /* Main Background Color*/
@@ -562,7 +562,7 @@
     }
 
     /* App Menu */
-    .gb_cc {
+    .gb_dc {
       filter: invert(1) grayscale(1) !important;
     }
 
