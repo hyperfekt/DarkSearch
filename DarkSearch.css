@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.8
+     * Version: v3.1.9
      */
 
      /* Main Background Color*/
@@ -128,7 +128,7 @@
     }
 
     /* TextD */
-    .rreh ._fk, span[style='color:#222'], #center_col ._Ak, #rhs ._Ak, ._i2g, ._g2g, .s, .st, ._cnc, #brs .med, ._Adb, ._tyb, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Lqc, .lc-loc-text, .gko-ctrl, .gko-ctrl:link, .gko-ctrl:visited, ._uxi, ._Hxi, ._gah, ._e9n {
+    .rreh ._fk, span[style='color:#222'], #center_col ._Ak, #rhs ._Ak, ._i2g, ._g2g, .s, .st, ._cnc, #brs .med, ._Adb, ._tyb, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Lqc, .lc-loc-text, .gko-ctrl, .gko-ctrl:link, .gko-ctrl:visited, ._uxi, ._Hxi, ._gah, ._e9n, ._cNr, ._Nar, ._lhs {
         color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
 
@@ -308,7 +308,7 @@
         background-color: #1d1d1d !important;
         border-color: #252525 !important;
     }
-    .kp-blk .xpdclose ._wle, .kp-blk .xpdopen ._xle, #center_col ._Ak, ._Sf, ._wPc, .sh-sr__shop-result-group, #gko-sp.gko-open, ._wNi, .rllt__action-button:not(:last-child) ._nMg, ._qJg, ._UWi, ._cCh, .t7iPNCE6YvC__nav-right, .tb_view, ._BZc, .xpdclose ._T1i:not(:empty), .xpdopen ._U1i:not(:empty), .scrt tr:first-child td, .scrt td, ._UIf ._SIf, ._UIf ._hvg {
+    .kp-blk .xpdclose ._wle, .kp-blk .xpdopen ._xle, #center_col ._Ak, ._Sf, ._wPc, .sh-sr__shop-result-group, #gko-sp.gko-open, ._wNi, .rllt__action-button:not(:last-child) ._nMg, ._qJg, ._UWi, ._cCh, .t7iPNCE6YvC__nav-right, .tb_view, ._BZc, .xpdclose ._T1i:not(:empty), .xpdopen ._U1i:not(:empty), .scrt tr:first-child td, .scrt td, ._UIf ._SIf, ._UIf ._hvg, #rhs ._mbr {
         border-color: #252525 !important;
     }
     .goog-menuseparator {
@@ -723,7 +723,7 @@
     .kappbar {
         background: #1d1d1d !important;
     }
-    .mlo-c, .klitem:hover, g-fab._jAg._uqh, .lr_dct_lbl_box {
+    .mlo-c, .klitem:hover, g-fab._jAg._uqh, .lr_dct_lbl_box, .klitem.selected {
         background: var(--main-bg-color) !important;
     }
     ._bjl, ._Phb.rhsvw .vkc_np, #center_col .kp-blk, .cMjHbjVt9AZ__button:active {
