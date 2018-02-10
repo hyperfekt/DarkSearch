@@ -2,12 +2,13 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.9b
+     * Version: v3.1.10
      */
 
      /* Main Background Color*/
     :root {
       --main-bg-color: /*[[MAINBGCOLOR]]*/ !important;
+      --container-bg-color: /*[[CONTAINERBGCOLOR]]*/ !important;
     }
 
     /* Fallback Color*/
@@ -265,7 +266,7 @@
 
     /* Dropdown Image colors */
     .sc a {
-        border-color: #161616 !important;
+        border-color: var(--container-bg-color) !important;
     }
 
     /* SearchBar dropdown */
@@ -282,7 +283,7 @@
 
     /* Containers */
     .vk_c, .vk_cxp, .kp-blk._Rqb._RJe, .rg_fbl, .rg_fbl:hover, .kp-blk._Jw._Rqb._RJe {
-        background: #161616 !important;
+        background: var(--container-bg-color) !important;
         box-shadow: 0 0 5px #0b0b0b !important;
     }
     ._OKe, .rl_item {
@@ -352,10 +353,10 @@
         background: #222 !important;
     }
     .rl_selected, .rl_item:hover {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
     }
     .rl_item, a.rl_item._pkf {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
         border-top: 1px solid #282828 !important;
     }
     .rl_feature .kxbcl, .rl_feature .lxhdrbox {
@@ -405,7 +406,7 @@
         border-color: #1d1d1d !important;
     }
     ._pbb, a._pbb, ._oc, ._oc .muse-wta, ._oc .richlist-wta, ._oc ._Sb {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
     }
     ._Z9b {
         color: #666 !important;
@@ -433,7 +434,7 @@
         color: #a8a8a8 !important;
     }
     .cwtlwm {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
     }
     .cwlgb-tpl {
         background-image: none !important;
@@ -581,9 +582,9 @@
         border: 1.5px solid #000000 !important;
     }
 
-    /* Dropdown Checkmarks (not yet implemented in browsers, see https://drafts.fxtf.org/filter-effects/#FilterCSSImageValue) */
+    /* Dropdown Checkmarks */
     .hdtbSel {
-        background-image: filter(url(https://ssl.gstatic.com/ui/v1/menu/checkmark2.png), invert(1)) !important;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAVCAQAAAAZIo2TAAAArElEQVQ4y+2SoQoCURBFz1tWRLYLBuF9gwhGEYtNLCJGwWr2FxTTssW+wa/wI7RaDAYNImw0XPPb3Sds1ttm7hzmDgz8lNRSvRrQU6xhFaCvVHO3F34FJow4cXC7xjteY0GHs0nyjmeLIlZYLuyLXuAMJhorBDVZY7mRmHcRcYJpwIwrR6ZEPNiarCxB7hYt6QLwYmOe5aGDXJ1yBzJiH1B2eFs72aoP0uAvvz5jAi5lzdsukgAAAABJRU5ErkJggg==) !important;
     }
 
     /* Expandable Navigation ("More", "Tools") */
@@ -617,7 +618,7 @@
         color: #EEE !important;
     }
     .pclose rect {
-        fill: #161616 !important;
+        fill: var(--container-bg-color) !important;
     }
 
     /* 'things to do' compass */
@@ -649,6 +650,22 @@
         -moz-appearance:textfield !important;
     }
     
+    /* Popular times */
+    ._Pdv {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAElBMVEUcHBwuLi4/Pz9SUlJgYGBmZmbxGvY5AAAAe0lEQVQIHQFwAI//AAAAI0QyAAAAABRVVVVBAAABVUIAJFUQAARFIBECVEAAJUURVRFUUgA1RERFEVRTADVERFEDVFQANURFIDVEVAA1REURVERTACVERERERFIABFRFIlRFQAABVUURVFUQAAAUVURVQQAAAAAjRDIAABBtEyIw7IT0AAAAAElFTkSuQmCC) !important;
+    }
+    ._tdv {
+        background: var(--container-bg-color) !important;
+    }
+    ._pdv {
+        background: #222 !important;
+    }
+    ._pdv .lubh-sel, ._pdv li:hover {
+        background: #444 !important;
+    }
+
+
+
     /* ETC */
     ._Qsh, ._ae ._SDf, ._Lbe, .kltat, .klfact {
         color: #c5c5c5 !important;
@@ -727,7 +744,7 @@
         background: var(--main-bg-color) !important;
     }
     ._bjl, ._Phb.rhsvw .vkc_np, #center_col .kp-blk, .cMjHbjVt9AZ__button:active {
-        background: #161616 !important;
+        background: var(--container-bg-color) !important;
     }
     .lr_dct_spkr_off input[type='image'], .lr_dct_spkr_on input[type='image'] {
         background-color: #fff !important;
@@ -973,7 +990,7 @@
         filter: invert(0.94) !important;
     }
     .cdr_dlg .goog-date-picker, .cdr_highl, .exyhlt {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
     }
     .cdr_dlg td.goog-date-picker-date:hover {
         background-color: #222 !important;
@@ -1023,7 +1040,7 @@
         border-color: #1d1d1d !important;
     }
     .lud-ohday {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
     }
     .lud-ohdi {
         border-bottom-color: #1d1d1d !important;
@@ -1081,13 +1098,13 @@
     }
     /* Search results containers */
     ._cy:not(:empty), .mnr-c:not(:empty) {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
     }
     ._OXf, ._MBh, ._U7g {
         border-color: #151515 !important;
     }
     ._Zjj, ._Dzh, .mnr-c._Dzh, ._ESj, ._RRj {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
         border-color: #151515 !important;
     }
     ._NRl, ._Fij, ._Fij a, ._jyj, ._Xbe, ._M3k, ._Iqg, ._P8d, ._xkm, ._ywh, ._uRh {
@@ -1206,7 +1223,7 @@
 
     /* Timer */
     .act-tim-txt-cnt div[style='background-color:white'] {
-        background-color: #161616 !important;
+        background-color: var(--container-bg-color) !important;
     }
     .act-tim-fs-cnt:-webkit-full-screen {
         background-color: var(--main-bg-color) !important;
