@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.5b
+     * Version: v3.1.6
      */
 
      /* Main Background Color*/
@@ -165,7 +165,7 @@
     }
 
     /* Links (white) */
-    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a, #hptl a {
+    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a, #hptl a, ._Y8r, ._yhs, ._oUt {
         color: #a3a3a3 !important;
     }
     .gb_Q span {
@@ -281,7 +281,7 @@
     }
 
     /* Containers */
-    .vk_c, .vk_cxp, .kp-blk._zCd._Rqb._RJe, .rg_fbl, .rg_fbl:hover, .kp-blk._Jw._Rqb._RJe {
+    .vk_c, .vk_cxp, .kp-blk._Rqb._RJe, .rg_fbl, .rg_fbl:hover, .kp-blk._Jw._Rqb._RJe {
         background: #161616 !important;
         box-shadow: 0 0 5px #0b0b0b !important;
     }
@@ -627,6 +627,11 @@
     /* 'things to do' borders */
     ._G4n td {
         border-color: #636363;
+    }
+
+    /* twitter icon border */
+    ._U8r {
+        border: 1px solid;
     }
     
     /* ETC */
