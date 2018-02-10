@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.6
+     * Version: v3.1.7
      */
 
      /* Main Background Color*/
@@ -632,6 +632,11 @@
     /* twitter icon border */
     ._U8r {
         border: 1px solid;
+    }
+
+    /* time differences */
+    ._SZc {
+        color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
     
     /* ETC */
