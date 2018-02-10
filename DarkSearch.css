@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.12
+     * Version: v3.1.12a
      */
 
      /* Main Background Color*/
@@ -680,7 +680,10 @@
     /* related image search terms (improvement over original)*/
     a.chip span.sq {
         font-weight: bold !important;
-        text-shadow:0 0 0.3em black !important;
+        text-shadow: 0 0 0.3em black !important;
+    }
+    a.chip.xchip span.sq {
+        text-shadow: none !important;
     }
 
 
