@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.10
+     * Version: v3.1.10a
      */
 
      /* Main Background Color*/
@@ -119,7 +119,7 @@
     }
 
     /* Links */
-    a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b, #foot #navcnt a, a.fl.q._KCd._tWc, .st .f .fl, div.duf3d a, ._YAp, .lr_dct_more_btn, a ._l6b, ._Yht, ._Mft, ._CSo {
+    a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b, #foot #navcnt a, a.fl.q._KCd._tWc, .st .f .fl, div.duf3d a, ._YAp, .lr_dct_more_btn, a ._l6b, ._Yht, ._Mft, ._CSo, ._VBr, ._m7u {
         color: /*[[LINKCOLOR]]*/ !important;
     }
 
