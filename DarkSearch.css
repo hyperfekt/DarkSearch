@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.12a
+     * Version: v3.1.12b
      */
 
      /* Main Background Color*/
@@ -166,14 +166,14 @@
     }
 
     /* Links (white) */
-    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a, #hptl a, ._Y8r, ._yhs, ._oUt {
+    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a, #hptl a, ._Y8r, ._yhs, ._oUt, .kxbcl {
         color: #a3a3a3 !important;
     }
     .gb_Q span {
         opacity: 1 !important;
     }
     /* Hover links (white) */
-    a._Gs:hover, ._HR a, #swml a:hover, .hdtbItm label:hover, .hdtbItm a:hover, #hdtb-more-mn a:hover, #hdtb .hdtb-mitem a:hover, .hdtb-mn-hd:hover, #hdtb-more:hover, #hdtb-tls:hover {
+    a._Gs:hover, ._HR a, #swml a:hover, .hdtbItm label:hover, .hdtbItm a:hover, #hdtb-more-mn a:hover, #hdtb .hdtb-mitem a:hover, .hdtb-mn-hd:hover, #hdtb-more:hover, #hdtb-tls:hover, .kxbcl .kxbc:hover {
         color: #e1e1e1 !important;
     }
 
