@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.12e
+     * Version: v3.1.12f
      */
 
      /* Main Background Color*/
@@ -695,7 +695,7 @@
     .dw-sb-cont .dw-sb-btn {
         background: var(--container-bg-color) !important;
     }
-    ._wtf {
+    ._wtf._Qtf:not(.sbico) {
         filter: invert(1) !important;
     }
 
