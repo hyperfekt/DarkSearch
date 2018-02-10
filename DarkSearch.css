@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.10a
+     * Version: v3.1.11
      */
 
      /* Main Background Color*/
@@ -124,7 +124,7 @@
     }
 
     /* More arrow */
-    ._Fqg {
+    ._Fqg, ._DYo {
         color: /*[[LINKCOLOR]]*/ !important;
     }
 
@@ -282,7 +282,7 @@
     }
 
     /* Containers */
-    .vk_c, .vk_cxp, .kp-blk._Rqb._RJe, .rg_fbl, .rg_fbl:hover, .kp-blk._Jw._Rqb._RJe {
+    .vk_c, .vk_cxp, .kp-blk._Rqb._RJe, .rg_fbl, .rg_fbl:hover, .kp-blk._Jw._Rqb._RJe, ._Z1m {
         background: var(--container-bg-color) !important;
         box-shadow: 0 0 5px #0b0b0b !important;
     }
@@ -662,6 +662,11 @@
     }
     ._pdv .lubh-sel, ._pdv li:hover {
         background: #444 !important;
+    }
+
+    /* What is my IP */
+    ._kup, ._H1m._ees._kup._J5m {
+        color: none !important;
     }
 
 
