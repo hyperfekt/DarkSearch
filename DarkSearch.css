@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.9a
+     * Version: v3.1.9b
      */
 
      /* Main Background Color*/
@@ -717,7 +717,7 @@
     ._M4k {
         border-color: #222 !important;
     }
-    ._Rf, .qbtbtxt.qbclr {
+    ._Rf, .qbtbtxt.qbclr, ._Rtn div {
         color: #777 !important;
     }
     .kappbar {
