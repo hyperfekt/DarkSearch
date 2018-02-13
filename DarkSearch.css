@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.13a
+     * Version: v3.1.14
      */
 
      /* Main Background Color*/
@@ -711,12 +711,25 @@
     .goog-menu-button {
         color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
-
     ._Que {
         filter: drop-shadow(0px 0px 1px white) !important;
     }
     #act-fmp-signin-title {
-        color: #222;
+        color: #222 !important;
+    }
+    
+    /* people also search for */
+    .exp-outline {
+        border-color: rgba(255,255,255,0.13) !important;
+    }
+    .kN9UDnqLeMg__dismiss-button {
+        filter: invert(1) !important;
+    }
+    .kN9UDnqLeMg__carousel-caption {
+        color: rgba(255,255,255,0.57) !important;
+    }
+    .kN9UDnqLeMg__explore-main {
+        border-color: rgba(255,255,255,0.08) !important;
     }
 
 
