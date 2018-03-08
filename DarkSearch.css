@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.15
+     * Version: v3.1.16
      */
 
      /* Main Background Color*/
@@ -947,20 +947,32 @@
     .gb_zb {
         background-color: #1a1a1a !important;
     }
-    .gb_yb:hover {
-        /*Buttons: Add account&Logout on hover*/
-        background: #333 !important;
-        border-color: #333 !important;
-    }
     .gb_Ea.gb_Cf.gb_ue.gb_yb, .gb_Ea.gb_Ef.gb_Mf.gb_ue.gb_yb {
         /*add account & sign out buttons*/
         background: #222 !important;
         border-color: #333 !important;
         color: #989898 !important;
     }
-    .gb_Cb, .gb_Eb {
+    .gb_Eb {
         /* multiLogin listing */
         background: #1d1d1d !important;
+    }
+    .gb_Mb {
+        background: #1d1d1d !important;
+    }
+
+    .gb_Ob:hover {
+        background: #333 !important;
+    }
+    .gb_Fb .gb_Eb:hover {
+        /* sign out and add account button */
+        background: #333 !important;
+    }
+    .gb_Zb {
+        color: #c5c5c5 !important;
+    }
+    .gb_qb {
+        border-bottom-color: #212121 !important;
     }
     .gb_Db, .gb_fa, .gb_Fb {
         /* multiLogin listing */
