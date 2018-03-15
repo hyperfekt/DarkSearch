@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.16
+     * Version: v3.1.17
      */
 
      /* Main Background Color*/
@@ -23,7 +23,7 @@
         color: #c5c5c5 !important;
     }
     /* Inverting colors */
-    .qbh, .s2tb .google-logo, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
+    .qbh, .s2tb .google-logo, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW, .fYWO0d {
         filter: invert(1) grayscale(1) !important;
     }
     ._Zgf {
@@ -119,7 +119,7 @@
     }
 
     /* Links */
-    a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b, #foot #navcnt a, a.fl.q._KCd._tWc, .st .f .fl, div.duf3d a, ._YAp, .lr_dct_more_btn, a ._l6b, ._Yht, ._Mft, ._CSo, ._VBr, ._m7u {
+    a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b, #foot #navcnt a, a.fl.q._KCd._tWc, .st .f .fl, div.duf3d a, ._YAp, .lr_dct_more_btn, a ._l6b, ._Yht, ._Mft, ._CSo, ._VBr, ._m7u, .xXEKkb {
         color: /*[[LINKCOLOR]]*/ !important;
     }
 
@@ -279,6 +279,9 @@
     }
     .sbsb_d {
         background: #2e2e2e !important;
+    }
+    a.aciXEb {
+        background: #222 !important;
     }
 
     /* Containers */
@@ -563,7 +566,7 @@
     }
 
     /* App Menu */
-    .gb_dc {
+    .gb_hc {
       filter: invert(1) grayscale(1) !important;
     }
 
@@ -594,7 +597,7 @@
     }
     
     /* Location Footer */
-    ._Cbu {
+    .b0KoTc {
         color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
 
@@ -745,6 +748,17 @@
     ._W6g._Obq:hover g-fab {
         color: white !important;
     }
+
+    /* related items */
+    .Ss2Faf {
+        color: /*[[MAINTEXTCOLOR]]*/ !important;
+    }
+
+    /* movie container */
+    .Ndq8Rb, .IZACzd, .WKrsIc, .piVJ4d, .RrxxYe {
+        color: /*[[MAINTEXTCOLOR]]*/ !important;
+    }
+     
 
 
     /* ETC */
@@ -1299,7 +1313,7 @@
     }
 
     /* People also ask */
-    ._qgo {
+    .m7VU0c {
         background: #1c1c1c !important;
         border-top-color: #303030 !important;
     }
