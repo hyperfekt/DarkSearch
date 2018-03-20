@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.17
+     * Version: v3.1.18
      */
 
      /* Main Background Color*/
@@ -573,6 +573,9 @@
     /* Sign In Button */
     .gb_Fa {
       border: none !important;
+    }
+    #gb a.gb_Fa.gb_Fa {
+      color: #fff !important;
     }
 
     /* Generated Images */
