@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.18
+     * Version: v3.1.19
      */
 
      /* Main Background Color*/
@@ -112,7 +112,7 @@
 
     /* Titles */
     .rllt__action-button:visited, #gsr .rllt__action-button:active, ._eMi, #sbsb_f, #sbsb_f:hover, a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu, a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited {
-        color: /*[[LINKCOLOR]]*/ !important;
+        color: /*[[LINKCOLOR]]*/;
     }
     ._tX, ._Qqb._tX.ellip, ._Icb > a, .ab_dropdownlnkinfo:hover {
         color: /*[[LINKCOLOR]]*/ !important;
@@ -919,7 +919,7 @@
     .gb_xb:active {
         background: #343434 !important;
     }
-    #gb#gb a.gb_O, .gb_ga, .gb_Jb, .gb_wa {
+    #gb#gb a.gb_O, .gb_ga, .gb_wa {
         color: #c5c5c5 !important;
     }
     /* 3x3 grid for app switcher */
@@ -950,7 +950,7 @@
     }
 
     /* Google Account Dropdown */
-    .gb_ha, .gb_Ob, .gb_Rb, .gb_fa {
+    .gb_ha, .gb_Ob, .gb_Rb, .gb_fa, .gb_3b {
         color: #c5c5c5 !important;
     }
     .gb_mb.gb_ha.gb_g {
@@ -961,27 +961,27 @@
         /*My account button fix*/
         color: #fff !important;
     }
-    .gb_zb {
-        background-color: #1a1a1a !important;
-    }
-    .gb_Ea.gb_Cf.gb_ue.gb_yb, .gb_Ea.gb_Ef.gb_Mf.gb_ue.gb_yb {
+    .gb_Ea, #gb a.gb_Ea.gb_Ea, .gb_Fa {
         /*add account & sign out buttons*/
         background: #222 !important;
         border-color: #333 !important;
         color: #989898 !important;
     }
-    .gb_Eb {
+    .gb_Ea:hover, #gb a.gb_Ea.gb_Ea:hover, .gb_Fa:hover {
+        background: #333 !important;
+    }
+    .gb_Jb {
         /* multiLogin listing */
         background: #1d1d1d !important;
     }
-    .gb_Mb {
+    .gb_Mb, .gb_Kb {
         background: #1d1d1d !important;
     }
 
-    .gb_Ob:hover {
+    .gb_Ob:hover, .gb_Sb:hover {
         background: #333 !important;
     }
-    .gb_Fb .gb_Eb:hover {
+    .gb_Kb .gb_Jb:hover {
         /* sign out and add account button */
         background: #333 !important;
     }
@@ -991,7 +991,7 @@
     .gb_qb {
         border-bottom-color: #212121 !important;
     }
-    .gb_Db, .gb_fa, .gb_Fb {
+    .gb_Db, .gb_fa, .gb_Fb, .gb_Qb {
         /* multiLogin listing */
         background: #212121 !important;
         border-top-color: rgba(0,0,0,0.2) !important;
@@ -1002,6 +1002,9 @@
     .gb_Eb:hover, .gb_Hb:hover {
         /* multiLogin listing on hover */
         background: #1d1d1d !important;
+    }
+    .gb_vb {
+        border-bottom-color: #1d1d1d !important;
     }
 
     /* Privacy Policy */
