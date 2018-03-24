@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google (updated)
      * Author:  hyperfekt
-     * Version: v3.1.19
+     * Version: v3.1.20
      */
 
      /* Main Background Color*/
@@ -758,9 +758,10 @@
     }
 
     /* movie container */
-    .Ndq8Rb, .IZACzd, .WKrsIc, .piVJ4d, .RrxxYe {
+    .Ndq8Rb, .IZACzd, .WKrsIc, .piVJ4d, .RrxxYe, .NIUoNb {
         color: /*[[MAINTEXTCOLOR]]*/ !important;
     }
+    
      
 
 
@@ -916,9 +917,6 @@
     .gb_Z:hover:not(.gb_0) a, .gb_ma, .gb_la, .gb_ka {
         border-color: #333 !important;
     }
-    .gb_xb:active {
-        background: #343434 !important;
-    }
     #gb#gb a.gb_O, .gb_ga, .gb_wa {
         color: #c5c5c5 !important;
     }
@@ -998,10 +996,6 @@
     }
     .gb_Pb {
         color: #c5c5c5 !important;
-    }
-    .gb_Eb:hover, .gb_Hb:hover {
-        /* multiLogin listing on hover */
-        background: #1d1d1d !important;
     }
     .gb_vb {
         border-bottom-color: #1d1d1d !important;
